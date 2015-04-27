@@ -9,6 +9,31 @@ module.exports = {
 
   attributes: {
 
+  	venueName: {
+  		type: 'string'
+  	},
+  	photo: {
+  		type: 'string'
+  	},
+  	startTime: {
+  		type: 'string'
+  	},
+  	endTime: {
+  		type: 'string'
+  	},
+  	drinkPrice: {
+  		type: 'string'
+  	},
+  	address: {
+  		type: 'string'
+  	},
+  	venueDescription: {
+  		type: 'string'
+  	},
+  	websiteLink: {
+  		type: 'string'
+  	}
+
   }
 };
 

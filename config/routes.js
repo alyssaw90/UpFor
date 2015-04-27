@@ -34,6 +34,8 @@ module.exports.routes = {
 
   '/': 'PagesController.index',
 
+  '/adminlogin' : 'AdminController.adminlogin',
+
   'get *': {
     controller: 'PagesController',
     action: 'index',

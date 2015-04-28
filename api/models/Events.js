@@ -25,10 +25,10 @@ module.exports = {
   		type: 'string'
   	},
   	eventDescription: {
-  		type: 'string'
+  		type: 'text'
   	},
   	venueDescription: {
-  		type: 'string'
+  		type: 'text'
   	},
   	ticketLink: {
   		type: 'string'

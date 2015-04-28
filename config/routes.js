@@ -36,6 +36,8 @@ module.exports.routes = {
 
   '/adminlogin' : 'AdminController.adminlogin',
 
+  '/event/new' : 'EventsController.new',
+
   'get *': {
     controller: 'PagesController',
     action: 'index',

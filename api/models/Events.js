@@ -46,7 +46,8 @@ module.exports = {
   		type: 'string'
   	},
   	interest: {
-  		type: 'string'
+  		type: 'string',
+      enum: ['Shows & Concerts', 'Fine Arts & Theater', 'Bars & Nightlife', 'Outdoor Adventures', 'Sight Seeing', 'Sporting Events', 'Gaming & Arcades', 'Classes', 'Community Events', 'Festivals', 'Bargain Hunters']
   	},
   	neighborhood: {
   		type: 'string'

@@ -1,0 +1,29 @@
+<h1>EVENT SHOW PAGE</h1>
+
+
+	<table class="table">
+		<thead class="table-head">
+			<tr>
+				<th>Event Name</th>
+				<th>Venue Name</th>
+				<th>Venue Address</th>
+				<th>Price</th>
+				<th>Neighborhood</th>
+				<th>Type/Interest</th>
+			</tr>
+		</thead>
+
+		<tbody>
+		<% data.forEach(function(item){%>
+			<tr>
+				<td><%= item.eventName %></td>
+				<td><%= item.venueName %></td>
+				<td><%= item.address %></td>
+				<td><%= item.price %></td>
+				<td><%= item.neighborhood%></td>
+				<td><%= item.interest%></td>
+			</tr>
+		<%})%>
+		</tbody>
+		
+	</table>

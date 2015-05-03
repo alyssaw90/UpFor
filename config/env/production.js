@@ -12,7 +12,7 @@
 
 module.exports = {
 
-  cconnections: {
+  connections: {
     someMongodbServerProd: {
       adapter: 'sails-mongo',
       url: process.env.MONGOLAB_URI

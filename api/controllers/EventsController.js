@@ -16,6 +16,7 @@ module.exports = {
 			eventName: req.body.eventName,
 			venueName: req.body.venueName,
 			photo: req.body.photo,
+			price: req.body.price,
 			address: req.body.address,
 			eventDescription: req.body.eventDescription,
 			venueDescription: req.body.venueDescription,

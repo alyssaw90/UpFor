@@ -5,6 +5,8 @@
 * @docs        :: http://sailsjs.org/#!documentation/models
 */
 
+var bcrypt = require('bcrypt')
+
 module.exports = {
 //Model attributes
   attributes: {
@@ -29,15 +31,15 @@ module.exports = {
       delete adminObject.password;
       return adminObject
     }
-  },
+  }
 
   //Encrypt password
-  beforeCreate:function(value, cb){
-    bcrypt.hash(value.password, 10, function(err, hash){
-      if(err) return cb(err);
-      value.password = hash;
-      cb();
-    })
-  }
+  // beforeCreate:function(value, cb){
+  //   bcrypt.hash(value.password, 10, function(err, hash){
+  //     if(err) return cb(err);
+  //     value.password = hash;
+  //     cb();
+  //   })
+  // }
 };
 

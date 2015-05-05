@@ -35,18 +35,19 @@ module.exports.routes = {
   '/': 'PagesController.index',
 
   '/admin/login' : 'AdminController.login',
-  '/admin/signup' : 'AdminController.signup',
+  'get /admin/signup' : 'AdminController.signup',
+  'post /admin' : 'AdminController.create',
 
   'get /event/new' : 'EventsController.new',
   'post /event' : 'EventsController.create',
-  '/event/show' : 'EventsController.show',
+  '/event/show' : 'EventsController.show'
 
-  'get *': {
-    controller: 'PagesController',
-    action: 'index',
-    skipAssets: true,
-    skipRegex: /^\/api\/.*$/
-  }
+  // 'get *': {
+  //   controller: 'PagesController',
+  //   action: 'index',
+  //   skipAssets: true,
+  //   skipRegex: /^\/api\/.*$/
+  // }
 
   /***************************************************************************
   *                                                                          *

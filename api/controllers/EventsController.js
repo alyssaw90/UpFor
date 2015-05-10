@@ -22,6 +22,7 @@ module.exports = {
 		var eventData = {
 			eventName: req.body.eventName,
 			venueName: req.body.venueName,
+			weekday: req.body.weekday,
 			photo: req.body.photo,
 			price: req.body.price,
 			address: req.body.address,

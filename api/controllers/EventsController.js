@@ -7,6 +7,13 @@
 
 module.exports = {
 
+	index: function(req, res){
+		Events.find().exec(function(err, data){
+			console.log(data);
+			res.view('index', {data: data})
+		})
+	},
+
 	new: function(req, res){
 		res.view('event/new');
 	},

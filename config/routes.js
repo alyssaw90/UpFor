@@ -32,11 +32,10 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': 'PagesController.index',
+  '/': 'EventsController.index',
 
   '/admin/login' : 'AdminController.login',
-  'get /admin/signup' : 'AdminController.signup',
-  'post /admin' : 'AdminController.create',
+  '/admin/signup' : 'AdminController.signup',
 
   'get /event/new' : 'EventsController.new',
   'post /event' : 'EventsController.create',

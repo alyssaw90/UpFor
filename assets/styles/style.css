@@ -2,3 +2,24 @@ h2, p {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 400;
 }
+
+.event-section {
+	height: 300px;
+	width: 300px;
+}
+
+.image { 
+   position: absolute; 
+   height: 300px;
+   width: 300px;
+}
+
+.event-text {
+	z-index: 100;
+	position: absolute;
+	color: white;
+/*	left: 150px;
+	top: 350px; */
+}
+
+

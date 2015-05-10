@@ -2,9 +2,11 @@
 
 	<% data.forEach(function(event){ %>
 		<div class="event-section">
+		<div class="event-text">
 			<h2><%= event.eventName %></h2>
 			<p><%= event.venueName %> <%= event.startTime %></p>
-			<img src="<%=event.photo%>" > 
+			</div>
+			<img src="<%= event.photo %>" alt="" class="image">
 		</div>
 	<% }) %>
 

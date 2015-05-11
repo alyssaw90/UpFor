@@ -3,6 +3,10 @@ h2, p {
 	font-size: 400;
 }
 
+body {
+	background-color: #353a3f;
+}
+
 .event-section {
 	height: 300px;
 	width: 300px;
@@ -18,8 +22,6 @@ h2, p {
 	z-index: 100;
 	position: absolute;
 	color: white;
-/*	left: 150px;
-	top: 350px; */
 }
 
 

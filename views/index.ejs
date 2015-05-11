@@ -1,13 +1,14 @@
 <div class="container">
 
 	<% data.forEach(function(event){ %>
-		<div class="event-section">
+	<div class="event-section">
 		<div class="event-text">
 			<h2><%= event.eventName %></h2>
 			<p><%= event.venueName %> <%= event.startTime %></p>
-			</div>
-			<img src="<%= event.photo %>" alt="" class="image">
+			<p><%= event.interest%></p>
 		</div>
+		<img src="<%= event.photo %>" alt="" class="image">
+	</div>
 	<% }) %>
 
 

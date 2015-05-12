@@ -1,8 +1,18 @@
-<div class="container">
-
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<a href="#" class="navbar navbar-left"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></a>
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Search for...">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button">Go!</button>
+			</span>
+		</div>
+	</div>
+</nav>
+<div>
 	<% data.forEach(function(event){ %>
 	<div class="event-section">
-		<div class="event-text">
+		<div class="event-text container">
 			<h2><%= event.eventName %></h2>
 			<p><%= event.venueName %> <%= event.startTime %></p>
 			<p><%= event.interest%></p>
@@ -10,6 +20,5 @@
 		<img src="<%= event.photo %>" alt="" class="image">
 	</div>
 	<% }) %>
-
 
 </div>

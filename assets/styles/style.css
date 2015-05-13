@@ -8,6 +8,10 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
+form {
+	width: 200px;
+}
+
 .event-section {
 	height: 300px;
 	width: 300px;

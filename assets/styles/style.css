@@ -6,10 +6,7 @@ html, body {
 body {
 	background-color: #353a3f;
 	font-family: 'Quicksand', sans-serif;
-}
-
-form {
-	width: 200px;
+	color: white;
 }
 
 .event-section {

@@ -5,6 +5,9 @@
 			<h2><%= event.eventName %></h2>
 			<p>@<%= event.venueName %> <%= event.startTime %> <%= event.weekday %></p>
 		</div>
+		<div class="price container">
+			<p><%= event.price %></p>
+		</div>
 		<img src="<%= event.photo %>" alt="" class="image">
 	</div>
 	<% }) %>

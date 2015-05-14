@@ -10,31 +10,31 @@ body {
 }
 
 .event-section {
-	height: 487px;
-	width: 640px;
+	height: 400px;
+	width: 373px;
 }
 
 .image { 
    position: absolute; 
-   height: 487px;
-   width: 640px;
+   height: 400px;
+   width: 373px;
 }
 
 .event-text {
 	z-index: 100;
 	position: absolute;
 	color: white;
-	margin-left: 10px;
-	margin-top: 355px;
+	margin-left: 8px;
+	margin-top: 280px;
 }
 
 .price {
 	z-index: 100;
 	position: absolute;
-	font-size: 24px;
+	font-size: 15px;
 	color: white;
-	margin-top: 17px;
-	margin-left: 430px;
+	margin-top: 25px;
+	margin-left: 260px;
 }
 
 

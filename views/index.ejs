@@ -3,11 +3,9 @@
 	<div class="event-section">
 		<div class="event-text container">
 			<h2><%= event.eventName %></h2>
-			<p><%= event.venueName %> <%= event.startTime %></p>
-			<p><%= event.interest%></p>
+			<p>@<%= event.venueName %> <%= event.startTime %> <%= event.weekday %></p>
 		</div>
 		<img src="<%= event.photo %>" alt="" class="image">
 	</div>
 	<% }) %>
-
 </div>

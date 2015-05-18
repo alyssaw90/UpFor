@@ -55,6 +55,13 @@ module.exports = {
 			res.view('event/show', {data: data})
 		})
 		// res.view('event/show');
+	},
+
+	id: function(req, res){
+		var id = req.params.id
+		Events.find({where: {id: req.params.id}}).exec(function(err, data){
+			res.view('id', {data:data})
+		})
 	}	
 	
 };

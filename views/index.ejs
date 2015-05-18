@@ -1,5 +1,3 @@
-<img src="https://lh5.googleusercontent.com/mYylSZ2qG4nwGhJoNpWU1dIft7IvERRdv7YuXh3a6yipTwdrCDxo_9qkVPtSY5jBoGaYMreKzlSxiNA=w2536-h1175" alt="">
-
 <div>
 	<% data.forEach(function(event){ %>
 	<div class="event-section">
@@ -10,7 +8,7 @@
 		<div class="price container">
 			<p><%= event.price %></p>
 		</div>
-		<img src="<%= event.photo %>" alt="" class="image">
+		<a href="/<%=event.id%>"><img src="<%= event.photo %>" alt="" class="image"></a>
 	</div>
 	<% }) %>
 </div>

@@ -33,7 +33,6 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': 'EventsController.index',
-  '/:id' : 'EventsController.id',
 
   '/admin/login' : 'AdminController.login',
   '/admin/signup' : 'AdminController.signup',
